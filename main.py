@@ -26,5 +26,9 @@ for i in range(n):
     print()
     
 #similary this program can also have input 
-
-     
+n = int(input("Area of Square input : "))# THIS WILL TAKE YOUR GIVEN INPUT AS LENGTH AND BREATH OF THE SQUARE AS LxB
+item = input("Item that u want to print in square :")# THIS CAN BE ANYTHING EMOJI ETC
+for i in range(n):
+    for j in range(n):
+        print(item,end='  ')
+    print()# Athough this print statment seems useless but it has its significance as it changes the line after each iteration
