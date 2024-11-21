@@ -32,3 +32,4 @@ for i in range(n):
     for j in range(n):
         print(item,end='  ')
     print()# Athough this print statment seems useless but it has its significance as it changes the line after each iteration
+    
