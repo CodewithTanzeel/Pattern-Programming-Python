@@ -6,6 +6,8 @@ for i in range(n):
         print("*",end=' ')
     print()
 
+
+
 # improvised
 row = int(input("number of rows :"))
 sym = input("Input whatever you want to print : ")
