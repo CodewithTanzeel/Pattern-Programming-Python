@@ -33,3 +33,22 @@ for i in range(n):
         print(item,end='  ')
     print()# Athough this print statment seems useless but it has its significance as it changes the line after each iteration
     
+
+# # Output 
+# i = 1
+# while i <= 5:
+#     j = 1 
+#     while j <= i:
+#       print("*",end = " ")
+#       j = j + 1
+#     print()
+#     i=i+1
+
+
+# *
+# * *
+# * * *
+# * * * *
+# * * * * *
+
+
