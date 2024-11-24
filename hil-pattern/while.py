@@ -10,11 +10,20 @@ while i <= 5:
     while p < i:
         print("*",end=" ")
         p += 1
-    j = 0
+    j = 1 # Start from 1 to avoid duplicating the peak
     while j < i:
         print("*",end=" ")
         j += 1
     i += 1
     print() 
+
+#Output:
+#         * 
+#       * * * 
+#     * * * * *
+#   * * * * * * *
+# * * * * * * * * *
+
+
 
 
