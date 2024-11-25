@@ -1,4 +1,5 @@
-
+print("This is  Diamond Pattern")
+print()
 n = 5 
 for i in  range(n-1):
 
