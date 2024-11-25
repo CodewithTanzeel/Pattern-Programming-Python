@@ -7,7 +7,7 @@ while i <= 5:
     p = 5
     while p >= i:
         print("$",end=" ")
-        p  -= 1
+        p -= 1
     print() 
     i += 1
 #   $ $ $ $ $ 
