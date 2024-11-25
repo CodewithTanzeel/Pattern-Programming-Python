@@ -128,7 +128,22 @@ for i in range(n):
 n = 5
 x = 69
 for i in range(n):
-    for j in range(i,n+1):
-        print(chr(69),end=' ')
+    for j in range(i+1):
+        print(chr(x),end=' ')
     x -= 1
+    print()
+# E
+# D D
+# C C C
+# B B B B
+# A A A A A
+
+# Alternative values increment
+n = 5
+for i in range(n):
+    for j in range(i+1):
+      if (i % 2 == 0):
+          print("f",end=' ')
+      else:
+          print(0,end=" ")
     print()
