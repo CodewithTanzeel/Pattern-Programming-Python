@@ -123,3 +123,12 @@ for i in range(n):
 # G H I J
 # K L M N O
 
+
+# E to A pattern
+n = 5
+x = 69
+for i in range(n):
+    for j in range(i,n+1):
+        print(chr(69),end=' ')
+    x -= 1
+    print()
