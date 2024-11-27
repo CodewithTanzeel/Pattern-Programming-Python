@@ -147,3 +147,4 @@ for i in range(n):
       else:
           print(0,end=" ")
     print()
+    
