@@ -101,12 +101,7 @@ for i in range(n):
     p+=1
     print()
 
-#Output
-# A
-# B B
-# C C C
-# D D D D
-# E E E E E
+
 
 # Same code different output 
 n = 5
