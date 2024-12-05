@@ -11,12 +11,12 @@ for j in range(i):
 i = 6
 for j in range(i):
     print("*",end="")
-
 print()
+
 # similarly we can improvise and take input from user 
 i = int(input("Enter number of Stars : "))
-for j in range(i):
-    print("*",)
+for j in range(i+1):
+    print("*")
 
 # print Square
 n = 5 
