@@ -9,6 +9,7 @@ for i in range(n):
 
 
 # improvised
+# sym / symbol
 # row = int(input("number of rows :"))
 # sym = input("Input whatever you want to print : ")
 # for i in range(row+1):
