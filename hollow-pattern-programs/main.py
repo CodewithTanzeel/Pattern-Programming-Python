@@ -184,15 +184,26 @@
 # *
 
 
-# Hollow paramid pattern
-n = 5
+# Paramid
+n = 5  
 for i in range(n):
-   for j in range(i,n):
-      print('',end='')
-   for j in range(i):
-      print('*',end='')
-   for j in range(1+i):
-      print('*',end='')
+    for j in range(i, n):  
+        print(' ', end=' ')
+    for j in range(i): 
+        if i == n - 1 or j == 0:
+            print('*', end=' ')
+        else:
+            print(' ', end=' ')
+    for j in range(1 + i):  
+        if i == n - 1 or j == i:
+            print('*', end=' ')
+        else:
+            print(' ', end=' ')
+    print()  
 
-   # print()
-
+#output
+#           * 
+#         *   * 
+#       *       *
+#     *           *
+#   * * * * * * * * *
