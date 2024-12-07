@@ -14,7 +14,7 @@ for i in  range(n):
     print()
     
 
-# Reverse hill pattern
+# Reverse Hill pattern
 
 print("This is a reverse hill pattern")
 n = 5 
